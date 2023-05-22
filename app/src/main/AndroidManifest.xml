@@ -21,6 +21,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:label="@string/Om_app"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="true" />
     </application>
 
 </manifest>
