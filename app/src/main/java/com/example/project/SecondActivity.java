@@ -29,7 +29,8 @@ public class SecondActivity extends AppCompatActivity {
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
 
-        myWebView.loadUrl("file:///android_asset/about.html");
+
+        myWebView.loadUrl("file:///android_asset/aboutapp.html");
 
     }
 
